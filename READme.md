@@ -16,6 +16,5 @@ From some reason the Controller has very short timeout and if the topic is not c
 [ruby $(which ign) gazebo-1] [ERROR] [1728687810.244952343] [a200_0000.controller_manager]: Switch controller timed out after 5.000000 seconds!
 [spawner-7] [ERROR] [1728687810.245729779] [a200_0000.spawner_joint_state_broadcaster]: Failed to activate controller```
 #
-```
-ros2 run controller_manager spawner platform_velocity_controller --controller-manager-timeout 120 --ros-args -r __ns:=/a200_0000
-```
+
+```ros2 run controller_manager spawner platform_velocity_controller --controller-manager-timeout 120 --ros-args -r __ns:=/a200_0000```
