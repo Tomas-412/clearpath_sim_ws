@@ -1,6 +1,7 @@
 
 # Command to start up the ROS2 simulation
-ros2 launch clearpath_gz simulation.launch.py rviz:=true
+
+```ros2 launch clearpath_gz simulation.launch.py rviz:=true```
 
 Workspace
 /a200_0000
