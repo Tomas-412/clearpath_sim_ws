@@ -1,0 +1,204 @@
+[0.016s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform/lib:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_generator_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.144s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.491s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.569s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.615s] -- Found moveit_setup_framework: 2.5.5 (/opt/ros/humble/share/moveit_setup_framework/cmake)
+[0.685s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.693s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.706s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.818s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.823s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.930s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.964s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.010s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.024s] -- Looking for pthread.h
+[1.102s] -- Looking for pthread.h - found
+[1.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.185s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.186s] -- Found Threads: TRUE  
+[1.356s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.379s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.407s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.448s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.581s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.680s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.680s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.055s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.098s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+[2.120s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.140s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.171s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.250s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.252s] -- Found OGRE
+[2.252s] --   static     : OFF
+[2.252s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.252s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.252s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.252s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.252s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.253s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.253s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.253s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.253s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.253s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.253s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.254s] -- Could not find freeimage library
+[2.277s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.283s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.386s] -- Found X11: /usr/include   
+[2.386s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.462s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.462s] -- Looking for gethostbyname
+[2.530s] -- Looking for gethostbyname - found
+[2.530s] -- Looking for connect
+[2.603s] -- Looking for connect - found
+[2.603s] -- Looking for remove
+[2.674s] -- Looking for remove - found
+[2.674s] -- Looking for shmat
+[2.747s] -- Looking for shmat - found
+[2.747s] -- Looking for IceConnectionNumber in ICE
+[2.819s] -- Looking for IceConnectionNumber in ICE - found
+[2.844s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[3.004s] -- Found moveit_setup_srdf_plugins: 2.5.5 (/opt/ros/humble/share/moveit_setup_srdf_plugins/cmake)
+[3.122s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.948s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.948s] -- Configured cppcheck include dirs: 
+[4.948s] -- Configured cppcheck exclude dirs and/or files: 
+[4.949s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.950s] -- Added test 'lint_cmake' to check CMake code style
+[4.951s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.954s] -- Added test 'uncrustify' to check C / C++ code style
+[4.954s] -- Configured uncrustify additional arguments: 
+[4.955s] -- Added test 'xmllint' to check XML markup files
+[4.956s] -- Configuring done
+[4.998s] -- Generating done
+[5.001s] -- Build files have been written to: /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common
+[5.016s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform/lib:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_generator_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common
+[5.017s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform/lib:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common -- -j8 -l8
+[5.067s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_collision_updater.dir/src/moveit_collision_updater.cpp.o[0m
+[5.074s] [ 50%] Built target ament_cmake_python_symlink_clearpath_generator_common
+[5.345s] running egg_info
+[5.345s] creating clearpath_generator_common.egg-info
+[5.345s] writing clearpath_generator_common.egg-info/PKG-INFO
+[5.345s] writing dependency_links to clearpath_generator_common.egg-info/dependency_links.txt
+[5.346s] writing top-level names to clearpath_generator_common.egg-info/top_level.txt
+[5.346s] writing manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[5.349s] reading manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[5.350s] writing manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[5.376s] [ 50%] Built target ament_cmake_python_build_clearpath_generator_common_egg
+[17.005s] [100%] [32m[1mLinking CXX executable moveit_collision_updater[0m
+[17.920s] [100%] Built target moveit_collision_updater
+[17.932s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform/lib:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common -- -j8 -l8
+[17.957s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform/lib:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common
+[17.964s] -- Install configuration: ""
+[17.964s] -- Execute custom install script
+[17.965s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/lib/clearpath_generator_common/generate_description
+[17.973s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/lib/clearpath_generator_common/generate_discovery_server
+[17.982s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/lib/clearpath_generator_common/generate_bash
+[17.991s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/lib/clearpath_generator_common/generate_semantic_description
+[18.000s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/pythonpath.sh
+[18.009s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/pythonpath.dsv
+[18.019s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.3.4-py3.10.egg-info/PKG-INFO
+[18.028s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.3.4-py3.10.egg-info/SOURCES.txt
+[18.037s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.3.4-py3.10.egg-info/dependency_links.txt
+[18.046s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.3.4-py3.10.egg-info/top_level.txt
+[18.056s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/__init__.py
+[18.065s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/__init__.py
+[18.074s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generate_bash
+[18.084s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generator.py
+[18.093s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/writer.py
+[18.101s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/common.py
+[18.114s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/__init__.py
+[18.122s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/attachments.py
+[18.131s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generate_description
+[18.140s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generator.py
+[18.149s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/links.py
+[18.158s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/manipulators.py
+[18.166s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/mounts.py
+[18.175s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/platform.py
+[18.187s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/sensors.py
+[18.195s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/writer.py
+[18.204s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generate_discovery_server
+[18.213s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generator.py
+[18.222s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/__init__.py
+[18.231s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/generator.py
+[18.240s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/writer.py
+[18.248s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/__init__.py
+[18.257s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/writer.py
+[18.266s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/__init__.py
+[18.274s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/generator.py
+[18.284s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/manipulators.py
+[18.292s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/platform.py
+[18.301s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/writer.py
+[18.310s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/__init__.py
+[18.318s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/generate_semantic_description
+[18.327s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/generator.py
+[18.335s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/manipulators.py
+[18.344s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/ament_index/resource_index/package_run_dependencies/clearpath_generator_common
+[18.352s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/ament_index/resource_index/parent_prefix_path/clearpath_generator_common
+[18.361s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/ament_prefix_path.sh
+[18.369s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/ament_prefix_path.dsv
+[18.378s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/path.sh
+[18.387s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/path.dsv
+[18.395s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.bash
+[18.403s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.sh
+[18.411s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.zsh
+[18.420s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.dsv
+[18.428s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/package.dsv
+[18.436s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/ament_index/resource_index/packages/clearpath_generator_common
+[18.444s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/cmake/clearpath_generator_commonConfig.cmake
+[18.453s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/cmake/clearpath_generator_commonConfig-version.cmake
+[18.460s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/share/clearpath_generator_common/package.xml
+[18.469s] -- Installing: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/lib/clearpath_generator_common/moveit_collision_updater
+[18.470s] -- Set runtime path of "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/lib/clearpath_generator_common/moveit_collision_updater" to ""
+[18.535s] Listing '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/__init__.py'...
+[18.535s] Listing '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/__init__.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generator.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/writer.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/common.py'...
+[18.535s] Listing '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/__init__.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/attachments.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generator.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/links.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/manipulators.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/mounts.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/platform.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/sensors.py'...
+[18.535s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/writer.py'...
+[18.535s] Listing '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generator.py'...
+[18.536s] Listing '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/__init__.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/generator.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/writer.py'...
+[18.536s] Listing '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/__init__.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/writer.py'...
+[18.536s] Listing '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/__init__.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/generator.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/manipulators.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/platform.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/writer.py'...
+[18.536s] Listing '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/__init__.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/generator.py'...
+[18.536s] Compiling '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/manipulators.py'...
+[18.541s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform/lib:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common

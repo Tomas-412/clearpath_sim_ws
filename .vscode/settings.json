@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages",
+        "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages",
+        "/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config",
+        "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/ros/hubmle/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages",
+        "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages",
+        "/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config",
+        "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/ros/hubmle/lib/python3.10/site-packages"
+    ],
+    "cmake.sourceDirectory": "/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_customization"
+}

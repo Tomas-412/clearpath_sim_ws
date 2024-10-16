@@ -1,0 +1,2 @@
+Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs -- -j8 -l8
+Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs -- -j8 -l8

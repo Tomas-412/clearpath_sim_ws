@@ -1,0 +1,1 @@
+/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Lights.msg

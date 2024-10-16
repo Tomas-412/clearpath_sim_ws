@@ -1,0 +1,70 @@
+[0.083s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control -- -j8 -l8
+[0.954s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control -- -j8 -l8
+[1.066s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control
+[1.129s] -- Install configuration: ""
+[1.131s] -- Execute custom install script
+[1.133s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/a200/control.yaml
+[1.139s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/a200/localization.yaml
+[1.139s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/a200/teleop_interactive_markers.yaml
+[1.140s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/a200/teleop_logitech.yaml
+[1.140s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/a200/teleop_ps4.yaml
+[1.140s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd100/control.yaml
+[1.140s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd100/localization.yaml
+[1.144s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd100/teleop_interactive_markers.yaml
+[1.144s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd100/teleop_logitech.yaml
+[1.144s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd100/teleop_ps4.yaml
+[1.151s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd150/control.yaml
+[1.152s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd150/localization.yaml
+[1.152s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd150/teleop_interactive_markers.yaml
+[1.153s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd150/teleop_logitech.yaml
+[1.153s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/dd150/teleop_ps4.yaml
+[1.158s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do100/control.yaml
+[1.158s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do100/localization.yaml
+[1.162s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do100/teleop_interactive_markers.yaml
+[1.162s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do100/teleop_logitech.yaml
+[1.166s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do100/teleop_ps4.yaml
+[1.166s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do150/control.yaml
+[1.166s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do150/localization.yaml
+[1.166s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do150/teleop_interactive_markers.yaml
+[1.168s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do150/teleop_logitech.yaml
+[1.168s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/do150/teleop_ps4.yaml
+[1.169s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/generic/localization.yaml
+[1.169s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_interactive_markers.yaml
+[1.174s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_logitech.yaml
+[1.174s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_ps4.yaml
+[1.174s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/j100/control.yaml
+[1.174s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/j100/localization.yaml
+[1.174s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/j100/teleop_interactive_markers.yaml
+[1.175s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/j100/teleop_logitech.yaml
+[1.175s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/j100/teleop_ps4.yaml
+[1.175s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/r100/control.yaml
+[1.175s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/r100/localization.yaml
+[1.175s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/r100/teleop_interactive_markers.yaml
+[1.175s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/r100/teleop_logitech.yaml
+[1.191s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/r100/teleop_ps4.yaml
+[1.191s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/twist_mux.yaml
+[1.192s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/w200/control.yaml
+[1.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/w200/localization.yaml
+[1.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/w200/teleop_interactive_markers.yaml
+[1.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/w200/teleop_logitech.yaml
+[1.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/config/w200/teleop_ps4.yaml
+[1.196s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/launch/control.launch.py
+[1.196s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/launch/localization.launch.py
+[1.196s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/launch/teleop_base.launch.py
+[1.196s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/launch/teleop_joy.launch.py
+[1.196s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/ament_index/resource_index/package_run_dependencies/clearpath_control
+[1.196s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/ament_index/resource_index/parent_prefix_path/clearpath_control
+[1.197s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/environment/ament_prefix_path.sh
+[1.197s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/environment/ament_prefix_path.dsv
+[1.206s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/environment/path.sh
+[1.208s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/environment/path.dsv
+[1.208s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/local_setup.bash
+[1.208s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/local_setup.sh
+[1.208s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/local_setup.zsh
+[1.208s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/local_setup.dsv
+[1.209s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/package.dsv
+[1.223s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/ament_index/resource_index/packages/clearpath_control
+[1.224s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/cmake/clearpath_controlConfig.cmake
+[1.224s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/cmake/clearpath_controlConfig-version.cmake
+[1.224s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control/share/clearpath_control/package.xml
+[1.249s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control

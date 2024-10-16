@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform/include/**",
+        "/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_platform/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

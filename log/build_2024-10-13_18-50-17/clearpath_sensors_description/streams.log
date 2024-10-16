@@ -1,0 +1,67 @@
+[0.018s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_sensors_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description
+[0.290s] -- The C compiler identification is GNU 11.4.0
+[0.290s] -- The CXX compiler identification is GNU 11.4.0
+[0.290s] -- Detecting C compiler ABI info
+[0.290s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.378s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.612s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.725s] -- Configuring done
+[0.725s] -- Generating done
+[0.727s] -- Build files have been written to: /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description
+[0.733s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_sensors_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description
+[0.733s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description -- -j8 -l8
+[0.769s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description -- -j8 -l8
+[0.794s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description
+[0.802s] -- Install configuration: ""
+[0.803s] -- Execute custom install script
+[0.803s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/flir_blackfly.stl
+[0.810s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/hokuyo_ust.stl
+[0.814s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/hokuyo_utm30.stl
+[0.821s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/novatel_smart6.stl
+[0.830s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/novatel_smart7.stl
+[0.838s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/oakd_lite.dae
+[0.849s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/oakd_pro.dae
+[0.857s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/sick_lms1xx_collision.stl
+[0.866s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/sick_lms1xx_small.dae
+[0.874s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/swift_antenna.stl
+[0.884s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/chrobotics_um6.urdf.xacro
+[0.893s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/flir_blackfly.urdf.xacro
+[0.902s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/garmin_18x.urdf.xacro
+[0.910s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/hokuyo_ust.urdf.xacro
+[0.922s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/intel_realsense.urdf.xacro
+[0.928s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/luxonis_oakd.urdf.xacro
+[0.952s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/microstrain_gq7.urdf.xacro
+[0.965s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/microstrain_imu.urdf.xacro
+[0.986s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/novatel_smart6.urdf.xacro
+[0.997s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/novatel_smart7.urdf.xacro
+[1.014s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/phidgets_spatial.urdf.xacro
+[1.022s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/redshift_um7.urdf.xacro
+[1.031s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/sick_lms1xx.urdf.xacro
+[1.038s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/stereolabs_zed.urdf.xacro
+[1.045s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/swiftnav_duro.urdf.xacro
+[1.053s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/velodyne_lidar.urdf.xacro
+[1.063s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/ament_index/resource_index/package_run_dependencies/clearpath_sensors_description
+[1.070s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/ament_index/resource_index/parent_prefix_path/clearpath_sensors_description
+[1.080s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/ament_prefix_path.sh
+[1.087s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/ament_prefix_path.dsv
+[1.096s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/path.sh
+[1.103s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/path.dsv
+[1.112s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.bash
+[1.119s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.sh
+[1.128s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.zsh
+[1.135s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.dsv
+[1.145s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/package.dsv
+[1.152s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/ament_index/resource_index/packages/clearpath_sensors_description
+[1.160s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/cmake/clearpath_sensors_descriptionConfig.cmake
+[1.167s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/cmake/clearpath_sensors_descriptionConfig-version.cmake
+[1.175s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/package.xml
+[1.186s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description

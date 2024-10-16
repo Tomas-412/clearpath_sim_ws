@@ -1,0 +1,37 @@
+[0.062s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators -- -j8 -l8
+[0.128s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators' returned '0': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators -- -j8 -l8
+[0.168s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators
+[0.183s] -- Install configuration: ""
+[0.183s] -- Execute custom install script
+[0.185s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/cartesian_limits.yaml
+[0.185s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/control.yaml
+[0.187s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/kinematics/arm.yaml
+[0.187s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/kinematics/gripper.yaml
+[0.187s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/kinematics/lift.yaml
+[0.190s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/_ompl/defaults.yaml
+[0.192s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/_ompl/planning.yaml
+[0.192s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/chomp/planning.yaml
+[0.192s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/pilz/defaults.yaml
+[0.192s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/pilz/planning.yaml
+[0.192s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/planning/pipeline.yaml
+[0.192s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/planning_scene.yaml
+[0.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/config/trajectory_execution.yaml
+[0.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/launch/control.launch.py
+[0.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/launch/manipulators.launch.py
+[0.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/launch/moveit.launch.py
+[0.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/ament_index/resource_index/package_run_dependencies/clearpath_manipulators
+[0.193s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/ament_index/resource_index/parent_prefix_path/clearpath_manipulators
+[0.194s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/environment/ament_prefix_path.sh
+[0.194s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/environment/ament_prefix_path.dsv
+[0.194s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/environment/path.sh
+[0.195s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/environment/path.dsv
+[0.195s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/local_setup.bash
+[0.195s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/local_setup.sh
+[0.196s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/local_setup.zsh
+[0.196s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/local_setup.dsv
+[0.196s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/package.dsv
+[0.211s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/ament_index/resource_index/packages/clearpath_manipulators
+[0.212s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/cmake/clearpath_manipulatorsConfig.cmake
+[0.212s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/cmake/clearpath_manipulatorsConfig-version.cmake
+[0.213s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators/share/clearpath_manipulators/package.xml
+[0.217s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators' returned '0': AMENT_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description:/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators

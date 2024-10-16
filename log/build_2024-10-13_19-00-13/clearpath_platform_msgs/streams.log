@@ -1,0 +1,24 @@
+[0.081s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs -- -j8 -l8
+[0.943s] [  0%] Built target clearpath_platform_msgs__cpp
+[0.948s] [ 12%] Built target clearpath_platform_msgs__rosidl_generator_c
+[0.949s] [ 12%] Built target ament_cmake_python_symlink_clearpath_platform_msgs
+[0.950s] [ 24%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_cpp
+[0.953s] [ 36%] Built target clearpath_platform_msgs__rosidl_typesupport_cpp
+[0.954s] [ 47%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp
+[0.954s] [ 59%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_c
+[0.958s] [ 71%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c
+[0.958s] [ 82%] Built target clearpath_platform_msgs__rosidl_typesupport_c
+[0.958s] [ 82%] Built target clearpath_platform_msgs
+[0.958s] [ 83%] Built target clearpath_platform_msgs__py
+[0.959s] [ 94%] Built target clearpath_platform_msgs__rosidl_generator_py
+[0.959s] [ 96%] Built target clearpath_platform_msgs__rosidl_typesupport_c__pyext
+[0.959s] [ 98%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.959s] [100%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext
+[0.959s] running egg_info
+[0.959s] writing clearpath_platform_msgs.egg-info/PKG-INFO
+[0.960s] writing dependency_links to clearpath_platform_msgs.egg-info/dependency_links.txt
+[0.960s] writing top-level names to clearpath_platform_msgs.egg-info/top_level.txt
+[0.961s] reading manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[0.961s] writing manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[0.993s] [100%] Built target ament_cmake_python_build_clearpath_platform_msgs_egg
+[1.087s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs -- -j8 -l8

@@ -1,0 +1,1 @@
+/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/srv/_configure_mcu_s.c

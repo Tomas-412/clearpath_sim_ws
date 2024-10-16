@@ -1,0 +1,18 @@
+[1.895s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config': PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/build --no-deps symlink_data
+[2.636s] running develop
+[2.637s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.638s]   warnings.warn(
+[3.132s] running egg_info
+[3.133s] writing clearpath_config.egg-info/PKG-INFO
+[3.136s] writing dependency_links to clearpath_config.egg-info/dependency_links.txt
+[3.137s] writing requirements to clearpath_config.egg-info/requires.txt
+[3.137s] writing top-level names to clearpath_config.egg-info/top_level.txt
+[3.145s] package init file 'clearpath_config/manipulators/types/__init__.py' not found (or not a regular file)
+[3.164s] reading manifest file 'clearpath_config.egg-info/SOURCES.txt'
+[3.171s] writing manifest file 'clearpath_config.egg-info/SOURCES.txt'
+[3.263s] running build_ext
+[3.264s] Creating /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath-config.egg-link (link to .)
+[3.264s] 
+[3.264s] Installed /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config
+[3.264s] running symlink_data
+[3.573s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config' returned '0': PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/build --no-deps symlink_data

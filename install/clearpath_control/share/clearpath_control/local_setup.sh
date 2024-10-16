@@ -1,0 +1,1 @@
+/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control/ament_cmake_environment_hooks/local_setup.sh

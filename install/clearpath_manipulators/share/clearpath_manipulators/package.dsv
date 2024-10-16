@@ -1,0 +1,3 @@
+source;share/clearpath_manipulators/hook/cmake_prefix_path.ps1
+source;share/clearpath_manipulators/hook/cmake_prefix_path.dsv
+source;share/clearpath_manipulators/hook/cmake_prefix_path.sh

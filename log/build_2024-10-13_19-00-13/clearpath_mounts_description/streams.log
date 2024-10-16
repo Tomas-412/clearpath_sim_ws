@@ -1,0 +1,42 @@
+[0.087s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description -- -j8 -l8
+[0.955s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description -- -j8 -l8
+[1.049s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description
+[1.077s] -- Install configuration: ""
+[1.102s] -- Execute custom install script
+[1.102s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/disk.stl
+[1.124s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/fath_pivot_mount.dae
+[1.127s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/fath_pivot_mount_base.dae
+[1.127s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_20.stl
+[1.128s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_40.stl
+[1.128s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_60.stl
+[1.128s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_80.stl
+[1.144s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_horizontal.stl
+[1.144s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_horizontal_large.stl
+[1.144s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_vertical.stl
+[1.144s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/riser_1x7.stl
+[1.151s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/riser_8x7.stl
+[1.160s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/sick_inverted.dae
+[1.160s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/sick_upright.stl
+[1.160s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/disk.urdf.xacro
+[1.164s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/fath_pivot.urdf.xacro
+[1.166s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/bracket.urdf.xacro
+[1.167s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/riser.urdf.xacro
+[1.167s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/riser_leg.urdf.xacro
+[1.167s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/post.urdf.xacro
+[1.167s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/sick.urdf.xacro
+[1.167s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/ament_index/resource_index/package_run_dependencies/clearpath_mounts_description
+[1.171s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/ament_index/resource_index/parent_prefix_path/clearpath_mounts_description
+[1.171s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/ament_prefix_path.sh
+[1.171s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/ament_prefix_path.dsv
+[1.172s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/path.sh
+[1.172s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/path.dsv
+[1.172s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.bash
+[1.182s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.sh
+[1.188s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.zsh
+[1.188s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.dsv
+[1.188s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/package.dsv
+[1.212s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/ament_index/resource_index/packages/clearpath_mounts_description
+[1.212s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/cmake/clearpath_mounts_descriptionConfig.cmake
+[1.213s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/cmake/clearpath_mounts_descriptionConfig-version.cmake
+[1.213s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/package.xml
+[1.267s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description

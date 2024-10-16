@@ -1,0 +1,61 @@
+[0.960s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config': PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/build --no-deps symlink_data
+[1.268s] running develop
+[1.269s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.269s]   warnings.warn(
+[1.456s] running egg_info
+[1.456s] creating clearpath_config.egg-info
+[1.456s] writing clearpath_config.egg-info/PKG-INFO
+[1.457s] writing dependency_links to clearpath_config.egg-info/dependency_links.txt
+[1.457s] writing requirements to clearpath_config.egg-info/requires.txt
+[1.457s] writing top-level names to clearpath_config.egg-info/top_level.txt
+[1.457s] writing manifest file 'clearpath_config.egg-info/SOURCES.txt'
+[1.459s] package init file 'clearpath_config/manipulators/types/__init__.py' not found (or not a regular file)
+[1.460s] reading manifest file 'clearpath_config.egg-info/SOURCES.txt'
+[1.462s] writing manifest file 'clearpath_config.egg-info/SOURCES.txt'
+[1.491s] running build_ext
+[1.492s] Creating /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath-config.egg-link (link to .)
+[1.492s] 
+[1.492s] Installed /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config
+[1.492s] running symlink_data
+[1.492s] creating /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/ament_index
+[1.493s] creating /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/ament_index/resource_index
+[1.493s] creating /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/ament_index/resource_index/packages
+[1.493s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/resource/clearpath_config -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/ament_index/resource_index/packages
+[1.493s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/package.xml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config
+[1.493s] creating /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.493s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/a200/a200_default.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.493s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/a200/a200_dual_laser.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.493s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/a200/a200_sample.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.493s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/a200/a200_outline.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.493s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/a200/a200_velodyne.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.493s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/j100/j100_default.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/j100/j100_dual_laser.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/j100/j100_sample.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/j100/j100_velodyne.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/j100/j100_outline.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/j100/j100_microstrain_gq7.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/w200/w200_default.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/w200/w200_outline.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/w200/w200_dual_laser.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/w200/w200_velodyne.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.494s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/dd150/dd150_outline.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/dd150/dd150_dual_laser.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/dd150/dd150_velodyne.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/dd150/dd150_default.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/dd100/dd100_dual_laser.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/dd100/dd100_velodyne.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/dd100/dd100_default.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/dd100/dd100_outline.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/r100/r100_outline.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/r100/r100_dual_laser.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/r100/r100_dual_laser_hokuyo.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.495s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/r100/r100_default.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.496s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/do100/do100_outline.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.496s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/do100/do100_default.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.496s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/do100/do100_velodyne.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.496s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/do100/do100_dual_laser.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.496s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/do150/do150_dual_laser.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.496s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/do150/do150_outline.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.496s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/do150/do150_velodyne.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.496s] symbolically linking /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/clearpath_config/sample/do150/do150_default.yaml -> /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/sample
+[1.530s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config' returned '0': PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config/build --no-deps symlink_data

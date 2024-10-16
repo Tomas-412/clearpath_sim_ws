@@ -1,0 +1,1 @@
+/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs/rosidl_cmake/srv/ConfigureMcu_Response.msg
