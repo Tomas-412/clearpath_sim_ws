@@ -7,7 +7,7 @@ Workspace
 /a200_0000
 
 #
-From some reason the Controller has very short timeout and if the topic is not changed and nothing is submitted into it in 5 seconds the controller dies. Then it has to be reseted using the code below error messages.
+From some reason the Controller has very short timeout. If the topic is not changed and nothing is submitted into it in 5 seconds the controller dies. Then it has to be reseted using the code below error messages.
 
 ```
 [ruby $(which ign) gazebo-1] 
