@@ -1,9 +1,12 @@
 # ClearPath Simulation
 **Overview** This package is a simulation setup downloaded from the ClearPath documentation. It provides the foundation for simulating robots in Gazebo using ROS 2.
+
 **Link to download the official package:** https://docs.clearpathrobotics.com/docs/ros/tutorials/simulator/overview
 
-#
-How to Start the Simulation
+**Workspace Structure** This simulation runs in the workspace ```/a200_0000```. Modify the robot configurations within the configuration package in the ```robot.yaml``` file.
+
+
+# How to Start the Simulation
 
 1. Ensure your ROS 2 workspace is set up and the package is built:
 
@@ -29,7 +32,7 @@ After launching Gazebo, the /cmd_vel topic needs to be adjusted to match your wo
 ![image](https://github.com/user-attachments/assets/5d6d91f9-fdd7-4c53-a0c8-d99ad5070e96)
 
 
-# Troubleshooting:
+# Troubleshooting
 
 1. **If you encounter the following errors:**
 
@@ -47,4 +50,4 @@ After launching Gazebo, the /cmd_vel topic needs to be adjusted to match your wo
 
 ```ros2 run controller_manager spawner platform_velocity_controller --controller-manager-timeout 120 --ros-args -r __ns:=/a200_0000```
 
-Workspace Structure This simulation runs in the workspace ```/a200_0000```. Modify the robot configurations within the configuration package in the ```robot.yaml``` file.
+
