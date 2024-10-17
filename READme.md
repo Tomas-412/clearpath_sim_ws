@@ -44,7 +44,9 @@ After launching Gazebo, the /cmd_vel topic needs to be adjusted to match your wo
 [imu_filter_madgwick_node-17] [WARN] [1728687807.262923303] [a200_0000.imu_filter_node]: Still waiting for data on topic imu/data_raw...
 [ruby $(which ign) gazebo-1] [ERROR] [1728687810.244952343] [a200_0000.controller_manager]: Switch controller timed out after 5.000000 seconds!
 [spawner-7] [ERROR] [1728687810.245729779] [a200_0000.spawner_joint_state_broadcaster]: Failed to activate controller
+```
 
+2. **Reset the controller by running:**
 
 ```ros2 run controller_manager spawner platform_velocity_controller --controller-manager-timeout 120 --ros-args -r __ns:=/a200_0000```
 
