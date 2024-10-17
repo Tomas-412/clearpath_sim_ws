@@ -29,7 +29,9 @@ After launching Gazebo, the /cmd_vel topic needs to be adjusted to match your wo
 ![image](https://github.com/user-attachments/assets/5d6d91f9-fdd7-4c53-a0c8-d99ad5070e96)
 
 
-**Troubleshooting:** If you encounter the following errors:
+# Troubleshooting:
+
+1. **If you encounter the following errors:**
 
 ```
 [ruby $(which ign) gazebo-1] 
@@ -41,6 +43,7 @@ After launching Gazebo, the /cmd_vel topic needs to be adjusted to match your wo
 [spawner-7] [ERROR] [1728687810.245729779] [a200_0000.spawner_joint_state_broadcaster]: Failed to activate controller
 ```
 
+2. **Reset the controller by running:**
 
 ```ros2 run controller_manager spawner platform_velocity_controller --controller-manager-timeout 120 --ros-args -r __ns:=/a200_0000```
 
