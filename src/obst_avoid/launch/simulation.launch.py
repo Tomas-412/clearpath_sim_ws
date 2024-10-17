@@ -47,7 +47,7 @@ ARGUMENTS.append(DeclareLaunchArgument('z', default_value='0.3',
 def generate_launch_description():
     # Directories
     pkg_clearpath_gz = get_package_share_directory(
-        'clearpath_gz')
+        'obst_avoid')
 
     # Paths
     gz_sim_launch = PathJoinSubstitution(
@@ -61,6 +61,7 @@ def generate_launch_description():
             ('world', LaunchConfiguration('world'))
         ]
     )
+    
 
     robot_spawn = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([robot_spawn_launch]),
