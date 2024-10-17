@@ -1,6 +1,11 @@
 
-# Command to start up the ROS2 simulation
 
+# This package is downloaded from Clearpath docs website
+
+https://docs.clearpathrobotics.com/docs/ros/tutorials/simulator/overview
+#
+
+# Command to start up the ROS2 simulation
 ```ros2 launch clearpath_gz simulation.launch.py rviz:=true```
 
 Workspace
