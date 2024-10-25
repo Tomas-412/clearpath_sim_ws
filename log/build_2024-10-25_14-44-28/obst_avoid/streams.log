@@ -1,0 +1,37 @@
+[0.655s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/src/obst_avoid': PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/obst_avoid build --build-base /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build install --record /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/install.log --single-version-externally-managed install_data
+[0.908s] running egg_info
+[0.908s] creating ../../build/obst_avoid/obst_avoid.egg-info
+[0.908s] writing ../../build/obst_avoid/obst_avoid.egg-info/PKG-INFO
+[0.909s] writing dependency_links to ../../build/obst_avoid/obst_avoid.egg-info/dependency_links.txt
+[0.909s] writing entry points to ../../build/obst_avoid/obst_avoid.egg-info/entry_points.txt
+[0.909s] writing requirements to ../../build/obst_avoid/obst_avoid.egg-info/requires.txt
+[0.909s] writing top-level names to ../../build/obst_avoid/obst_avoid.egg-info/top_level.txt
+[0.909s] writing manifest file '../../build/obst_avoid/obst_avoid.egg-info/SOURCES.txt'
+[0.910s] reading manifest file '../../build/obst_avoid/obst_avoid.egg-info/SOURCES.txt'
+[0.910s] writing manifest file '../../build/obst_avoid/obst_avoid.egg-info/SOURCES.txt'
+[0.910s] running build
+[0.910s] running build_py
+[0.910s] creating /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build
+[0.911s] creating /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib
+[0.911s] creating /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid
+[0.911s] copying obst_avoid/__init__.py -> /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid
+[0.911s] copying obst_avoid/gazebo_config.py -> /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid
+[0.911s] running install
+[0.911s] running install_lib
+[0.912s] creating /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid
+[0.912s] copying /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid/__init__.py -> /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid
+[0.912s] copying /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid/gazebo_config.py -> /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid
+[0.912s] byte-compiling /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid/__init__.py to __init__.cpython-310.pyc
+[0.912s] byte-compiling /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid/gazebo_config.py to gazebo_config.cpython-310.pyc
+[0.912s] running install_data
+[0.912s] creating /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/ament_index
+[0.912s] creating /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/ament_index/resource_index
+[0.912s] creating /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/ament_index/resource_index/packages
+[0.912s] copying resource/obst_avoid -> /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/ament_index/resource_index/packages
+[0.913s] copying package.xml -> /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/obst_avoid
+[0.913s] running install_egg_info
+[0.914s] Copying ../../build/obst_avoid/obst_avoid.egg-info to /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid-0.0.0-py3.10.egg-info
+[0.914s] running install_scripts
+[0.929s] Installing gazebo_config script to /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/obst_avoid
+[0.930s] writing list of installed files to '/home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/install.log'
+[0.952s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/src/obst_avoid' returned '0': PYTHONPATH=/home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/obst_avoid build --build-base /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build install --record /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/install.log --single-version-externally-managed install_data

@@ -1,0 +1,659 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7baf0a553820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7baf0a553280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7baf0a553280>>, mixin_verb=('build',))
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.182s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tomas-jelinek/clearpath_sim_ws'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_common) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_common' with type 'ros.ament_cmake' and name 'clearpath_common'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_control) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_control' with type 'ros.ament_cmake' and name 'clearpath_control'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_customization) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_customization' with type 'ros.ament_cmake' and name 'clearpath_customization'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_description) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_description' with type 'ros.ament_cmake' and name 'clearpath_description'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_generator_common) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_generator_common' with type 'ros.ament_cmake' and name 'clearpath_generator_common'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_manipulators' with type 'ros.ament_cmake' and name 'clearpath_manipulators'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_manipulators_description) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_manipulators_description' with type 'ros.ament_cmake' and name 'clearpath_manipulators_description'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_mounts_description) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_mounts_description' with type 'ros.ament_cmake' and name 'clearpath_mounts_description'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_platform' with type 'ros.ament_cmake' and name 'clearpath_platform'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_platform_description) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_platform_description' with type 'ros.ament_cmake' and name 'clearpath_platform_description'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_common/clearpath_sensors_description) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_common/clearpath_sensors_description' with type 'ros.ament_cmake' and name 'clearpath_sensors_description'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_config) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_config' with type 'ros.ament_python' and name 'clearpath_config'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_msgs) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_msgs/clearpath_msgs' with type 'ros.ament_cmake' and name 'clearpath_msgs'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_msgs/clearpath_platform_msgs) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_msgs/clearpath_platform_msgs' with type 'ros.ament_cmake' and name 'clearpath_platform_msgs'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_accessories_gazebo) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpr_gazebo/cpr_accessories_gazebo' with type 'ros.catkin' and name 'cpr_accessories_gazebo'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_agriculture_gazebo) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpr_gazebo/cpr_agriculture_gazebo' with type 'ros.catkin' and name 'cpr_agriculture_gazebo'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_empty_gazebo) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpr_gazebo/cpr_empty_gazebo' with type 'ros.catkin' and name 'cpr_empty_gazebo'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_inspection_gazebo) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpr_gazebo/cpr_inspection_gazebo' with type 'ros.catkin' and name 'cpr_inspection_gazebo'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_obstacle_gazebo) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpr_gazebo/cpr_obstacle_gazebo' with type 'ros.catkin' and name 'cpr_obstacle_gazebo'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_office_gazebo) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpr_gazebo/cpr_office_gazebo' with type 'ros.catkin' and name 'cpr_office_gazebo'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_orchard_gazebo) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpr_gazebo/cpr_orchard_gazebo' with type 'ros.catkin' and name 'cpr_orchard_gazebo'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpr_gazebo/cpr_race_modules) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpr_gazebo/cpr_race_modules' with type 'ros.catkin' and name 'gazebo_race_modules'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/obst_avoid) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obst_avoid' with type 'ros.ament_python' and name 'obst_avoid'
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.243s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/humble
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.270s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'clearpath_config' is in: /opt/ros/humble
+	'clearpath_common' is in: /opt/ros/humble
+	'clearpath_platform_description' is in: /opt/ros/humble
+	'clearpath_generator_common' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding clearpath_common clearpath_config clearpath_generator_common clearpath_platform_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_config', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_control', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'clearpath_customization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_customization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_customization', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_manipulators_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_manipulators_description', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_mounts_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_mounts_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_mounts_description', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_platform_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_platform_description', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_platform_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_msgs/clearpath_platform_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'clearpath_sensors_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_sensors_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_sensors_description', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_accessories_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'cpr_accessories_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_accessories_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_accessories_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_obstacle_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'cpr_obstacle_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_obstacle_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_obstacle_gazebo', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_obstacle_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'cpr_office_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'cpr_office_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_office_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_office_gazebo', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_office_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'gazebo_race_modules' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_race_modules' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/gazebo_race_modules', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/gazebo_race_modules', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_race_modules', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'obst_avoid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'obst_avoid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/obst_avoid', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_description', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_description', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_manipulators' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_manipulators' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_manipulators', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'clearpath_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_msgs', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_msgs/clearpath_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'clearpath_platform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_platform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_platform', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_agriculture_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'cpr_agriculture_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_agriculture_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_agriculture_gazebo', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_agriculture_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'cpr_empty_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'cpr_empty_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_empty_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_empty_gazebo', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_empty_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_inspection_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'cpr_inspection_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_inspection_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_inspection_gazebo', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_inspection_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'cpr_orchard_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'cpr_orchard_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_orchard_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_orchard_gazebo', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_orchard_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_generator_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_generator_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_generator_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_generator_common', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_generator_common', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'clearpath_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'clearpath_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_common', 'merge_install': False, 'path': '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_common', 'symlink_install': False, 'test_result_base': None}
+[0.278s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_manipulators_description' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_manipulators_description'
+[0.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_platform_description' with build type 'ament_cmake'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_platform_description'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_msgs/clearpath_platform_msgs' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_msgs/clearpath_platform_msgs'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_accessories_gazebo' with build type 'catkin'
+[0.288s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_accessories_gazebo'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_control' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_control'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_mounts_description' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_mounts_description'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_sensors_description' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_sensors_description'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.296s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_config' with build type 'ament_python'
+[0.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('clearpath_config', 'ament_prefix_path')
+[0.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/hook/ament_prefix_path.ps1'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/hook/ament_prefix_path.dsv'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config/share/clearpath_config/hook/ament_prefix_path.sh'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_manipulators_description -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_platform_description -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_accessories_gazebo': /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_accessories_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_control -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_mounts_description -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_sensors_description -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description
+[0.616s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomas-jelinek/clearpath_sim_ws/src/clearpath_config'
+[0.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_control -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_control
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_control -- -j8 -l8
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_platform_description -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_description
+[0.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_description -- -j8 -l8
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_manipulators_description -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_manipulators_description
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_manipulators_description -- -j8 -l8
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_sensors_description -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_sensors_description
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_sensors_description -- -j8 -l8
+[0.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_common/clearpath_mounts_description -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_mounts_description
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_mounts_description -- -j8 -l8
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/cpr_accessories_gazebo' returned '1': /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/cpr_gazebo/cpr_accessories_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo
+[0.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpr_accessories_gazebo)
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo' for CMake module files
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo' for CMake config files
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/bin'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/lib/pkgconfig/cpr_accessories_gazebo.pc'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/lib/python3.10/site-packages'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/bin'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/share/cpr_accessories_gazebo/package.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/share/cpr_accessories_gazebo/package.dsv'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/share/cpr_accessories_gazebo/package.sh'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/share/cpr_accessories_gazebo/package.bash'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/share/cpr_accessories_gazebo/package.zsh'
+[0.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomas-jelinek/clearpath_sim_ws/install/cpr_accessories_gazebo/share/colcon-core/packages/cpr_accessories_gazebo)
+[1.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.375s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.379s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.388s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomas-jelinek/clearpath_sim_ws/install/local_setup.ps1'
+[1.389s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomas-jelinek/clearpath_sim_ws/install/_local_setup_util_ps1.py'
+[1.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomas-jelinek/clearpath_sim_ws/install/setup.ps1'
+[1.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomas-jelinek/clearpath_sim_ws/install/local_setup.sh'
+[1.392s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomas-jelinek/clearpath_sim_ws/install/_local_setup_util_sh.py'
+[1.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomas-jelinek/clearpath_sim_ws/install/setup.sh'
+[1.394s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomas-jelinek/clearpath_sim_ws/install/local_setup.bash'
+[1.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomas-jelinek/clearpath_sim_ws/install/setup.bash'
+[1.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomas-jelinek/clearpath_sim_ws/install/local_setup.zsh'
+[1.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomas-jelinek/clearpath_sim_ws/install/setup.zsh'

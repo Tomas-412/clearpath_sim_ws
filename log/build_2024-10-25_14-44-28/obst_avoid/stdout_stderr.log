@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/obst_avoid/obst_avoid.egg-info
+writing ../../build/obst_avoid/obst_avoid.egg-info/PKG-INFO
+writing dependency_links to ../../build/obst_avoid/obst_avoid.egg-info/dependency_links.txt
+writing entry points to ../../build/obst_avoid/obst_avoid.egg-info/entry_points.txt
+writing requirements to ../../build/obst_avoid/obst_avoid.egg-info/requires.txt
+writing top-level names to ../../build/obst_avoid/obst_avoid.egg-info/top_level.txt
+writing manifest file '../../build/obst_avoid/obst_avoid.egg-info/SOURCES.txt'
+reading manifest file '../../build/obst_avoid/obst_avoid.egg-info/SOURCES.txt'
+writing manifest file '../../build/obst_avoid/obst_avoid.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build
+creating /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib
+creating /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid
+copying obst_avoid/__init__.py -> /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid
+copying obst_avoid/gazebo_config.py -> /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid
+running install
+running install_lib
+creating /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid
+copying /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid/__init__.py -> /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid
+copying /home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/build/lib/obst_avoid/gazebo_config.py -> /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid
+byte-compiling /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid/gazebo_config.py to gazebo_config.cpython-310.pyc
+running install_data
+creating /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/ament_index
+creating /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/ament_index/resource_index
+creating /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/ament_index/resource_index/packages
+copying resource/obst_avoid -> /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/ament_index/resource_index/packages
+copying package.xml -> /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/share/obst_avoid
+running install_egg_info
+Copying ../../build/obst_avoid/obst_avoid.egg-info to /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/python3.10/site-packages/obst_avoid-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gazebo_config script to /home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid/lib/obst_avoid
+writing list of installed files to '/home/tomas-jelinek/clearpath_sim_ws/build/obst_avoid/install.log'

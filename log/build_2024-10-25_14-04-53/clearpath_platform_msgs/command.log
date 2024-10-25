@@ -1,0 +1,1 @@
+Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tomas-jelinek/clearpath_sim_ws/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_platform_msgs

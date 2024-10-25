@@ -389,7 +389,7 @@ moveit_collision_updater: /usr/lib/x86_64-linux-gnu/libassimp.so.5.2.0
 moveit_collision_updater: /usr/lib/x86_64-linux-gnu/libz.so
 moveit_collision_updater: /usr/lib/x86_64-linux-gnu/libdraco.so.4.0.0
 moveit_collision_updater: /usr/lib/x86_64-linux-gnu/librt.a
-moveit_collision_updater: /opt/ros/humble/lib/libsrdfdom.so.2.0.4
+moveit_collision_updater: /opt/ros/humble/lib/libsrdfdom.so.2.0.5
 moveit_collision_updater: /opt/ros/humble/lib/liburdf.so
 moveit_collision_updater: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
 moveit_collision_updater: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
