@@ -25,7 +25,7 @@ source install/setup.bash
 
 After launching Gazebo, the /cmd_vel topic needs to be adjusted to match your workspace.
 
-1. Click the Play button to start controlling the robot.
+1. Click the Play button to start controlling the robot, as soon as possible, as there is a timeout of 5 seconds and then the drive controller deactivates.
 2. Go to the Teleop panel on the right side of Gazebo (as shown in the image).
 3. In the Topic field, change /cmd_vel to include your workspace, e.g., /a200_0000/cmd_vel.
 
