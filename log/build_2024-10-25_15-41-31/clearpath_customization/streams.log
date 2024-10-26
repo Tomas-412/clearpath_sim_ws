@@ -1,0 +1,35 @@
+[0.230s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization -- -j8 -l8
+[0.303s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization -- -j8 -l8
+[0.342s] Invoking command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization
+[0.351s] -- Install configuration: ""
+[0.351s] -- Execute custom install script
+[0.352s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/lib/clearpath_customization/generate_bringup
+[0.352s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/lib/clearpath_customization/generate_description
+[0.353s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/CMakeLists.txt
+[0.353s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/LICENSE
+[0.353s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/config/device.yaml
+[0.353s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/launch/device.launch.py
+[0.353s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/launch/project_bringup.launch.py
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/package.xml
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_description/CMakeLists.txt
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_description/LICENSE
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_description/meshes/donut.stl
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_description/package.xml
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_description/urdf/donut.urdf.xacro
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/project_description/urdf/project_description.urdf.xacro
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/ament_index/resource_index/package_run_dependencies/clearpath_customization
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/ament_index/resource_index/parent_prefix_path/clearpath_customization
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/environment/ament_prefix_path.sh
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/environment/ament_prefix_path.dsv
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/environment/path.sh
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/environment/path.dsv
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/local_setup.bash
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/local_setup.sh
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/local_setup.zsh
+[0.354s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/local_setup.dsv
+[0.354s] -- Symlinking: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/package.dsv
+[0.358s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/ament_index/resource_index/packages/clearpath_customization
+[0.358s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/cmake/clearpath_customizationConfig.cmake
+[0.358s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/cmake/clearpath_customizationConfig-version.cmake
+[0.358s] -- Up-to-date symlink: /home/tomas-jelinek/clearpath_sim_ws/install/clearpath_customization/share/clearpath_customization/package.xml
+[0.380s] Invoked command in '/home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomas-jelinek/clearpath_sim_ws/install/obst_avoid:/home/tomas-jelinek/clearpath_sim_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/tomas-jelinek/clearpath_sim_ws/build/clearpath_customization
